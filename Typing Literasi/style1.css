@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+}
+
+button:focus 
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+    background-color: #00FF93;
+	border-radius:12px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
